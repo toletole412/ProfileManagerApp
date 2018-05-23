@@ -1,0 +1,9 @@
+
+.flex-container_list{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container_list > div {
+  margin: 10px;
+}
