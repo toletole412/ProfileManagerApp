@@ -81,9 +81,6 @@ export default class profileForm extends Component {
             <button type="submit">ADD</button>
         </form>
       </div>
-      <div className="message">
-        PROFILE MANAGING APP
-      </div>
     </div>
     )
   }
