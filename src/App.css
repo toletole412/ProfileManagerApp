@@ -18,3 +18,11 @@
   margin: 10px;
   margin-right: -10px;
 }
+
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .title {
+    width:100%;
+  }
+}
