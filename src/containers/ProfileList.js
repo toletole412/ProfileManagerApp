@@ -9,7 +9,7 @@ class ProfileList extends Component {
   return (
    <div className="flex-container_list">
       {this.props.profiles.map((profile) => (
-          <div key={profile.id}>
+          <div key={profile.id} className="cardframe">
             {profile.editing ? <EditProfile profile={profile} key={profile.id} />
             : <ProfileCard key={profile.id} profile={profile} />}
           </div>

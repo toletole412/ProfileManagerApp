@@ -1,9 +1,11 @@
 
 .flex-container_list{
-  display: flex;
-  flex-wrap: nowrap;
-}
-
-.flex-container_list > div {
-  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  justify-items: stretch;
+  align-items: start;
+  padding: 3rem 2rem;
+  width: 100%;
 }

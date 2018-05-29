@@ -17,7 +17,7 @@ class ProfileCard extends Component {
     return (
       <div className="flex-container_card">
       <div className="card">
-        <p className="title">{this.props.profile.name}</p>
+        <div className="title" style={{width:"100%", height:"50px", fontSize:"2rem", textAlign: "center"}}>{this.props.profile.name}</div>
         <img src={this.props.profile.picture} alt="profile_picture" style={{width:"100%", height: "50%"}}/>
         <p>{this.props.profile.email}</p>
         <p>{this.props.profile.message}</p>
