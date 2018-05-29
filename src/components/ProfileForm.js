@@ -31,6 +31,7 @@ export default class profileForm extends Component {
     return (
     <div className="flex-container">
       <div className="container">
+
         <h1>Add Profile</h1>
 
         <form onSubmit={this.handleSubmit}>
@@ -80,6 +81,9 @@ export default class profileForm extends Component {
             <br />
             <button type="submit">ADD</button>
         </form>
+      </div>
+      <div className="title" style={{textAlign: "right", fontSize: "100px", color: "white", marginTop: "100px", marginRight: "-40px"}}>
+        MANAGE<br />YOUR PROFILES
       </div>
     </div>
     )
